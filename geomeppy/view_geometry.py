@@ -8,6 +8,10 @@ from eppy.iddcurrent import iddcurrent
 from six import StringIO
 from six.moves.tkinter import TclError
 
+from mpl_toolkits.mplot3d import Axes3D  # noqa
+from mpl_toolkits.mplot3d.art3d import Poly3DCollection
+import matplotlib.pyplot as plt
+
 try:
     from mpl_toolkits.mplot3d import Axes3D  # noqa
     from mpl_toolkits.mplot3d.art3d import Poly3DCollection
